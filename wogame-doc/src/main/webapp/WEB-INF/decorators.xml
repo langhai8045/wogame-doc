@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<decorators defaultDir="/manage/layout">
+    <excludes>
+        <pattern>/resources/*</pattern>
+        <pattern>/static/*</pattern>
+        <pattern>/login*</pattern>
+        <pattern>/unauthorize*</pattern>
+        <pattern>/upload/*</pattern>
+        <pattern>/api/*</pattern>
+        <pattern>*show=self*</pattern>
+    </excludes>
+
+    <decorator name="main" page="index.html">
+        <pattern>/*</pattern>
+    </decorator>
+</decorators>
