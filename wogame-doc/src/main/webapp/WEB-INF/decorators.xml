@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<decorators defaultDir="/manage">
+<decorators defaultDir="/">
     <excludes>
         <pattern>/css/*</pattern>
         <pattern>/font-awesome/*</pattern>

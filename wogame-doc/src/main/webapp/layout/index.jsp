@@ -12,17 +12,17 @@
 
     <title><sitemesh:title/></title>
 
-    <link href="${ctx}/manage/resources/css/bootstrap.min.css" rel="stylesheet">
-    <link href="${ctx}/manage/resources/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="${ctx}/resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${ctx}/resources/font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <!-- Toastr style -->
-    <link href="${ctx}/manage/resources/css/plugins/toastr/toastr.min.css" rel="stylesheet">
+    <link href="${ctx}/resources/css/plugins/toastr/toastr.min.css" rel="stylesheet">
 
     <!-- Gritter -->
-    <link href="${ctx}/manage/resources/js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+    <link href="${ctx}/resources/js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
 
-    <link href="${ctx}/manage/resources/css/animate.css" rel="stylesheet">
-    <link href="${ctx}/manage/resources/css/style.css" rel="stylesheet">
+    <link href="${ctx}/resources/css/animate.css" rel="stylesheet">
+    <link href="${ctx}/resources/css/style.css" rel="stylesheet">
     <sitemesh:head/>
 </head>
 
@@ -33,7 +33,7 @@
             <ul class="nav" id="side-menu">
                 <li class="nav-header">
                     <div class="dropdown profile-element"> <span>
-                            <img alt="image" class="img-circle" src="${ctx}/manage/resources/img/profile_small.jpg"/>
+                            <img alt="image" class="img-circle" src="${ctx}/resources/img/profile_small.jpg"/>
                              </span>
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">David
@@ -54,7 +54,7 @@
                 </li>
 
                 <li class="active">
-                    <a href="demo.jsp"><span class="nav-label">接口管理</span></a>
+                    <a href="${ctx}/interface/list"><span class="nav-label">接口管理</span></a>
                 </li>
             </ul>
 
@@ -66,43 +66,43 @@
 </div>
 
 <!-- Mainly scripts -->
-<script src="${ctx}/manage/resources/js/jquery-2.1.1.js"></script>
-<script src="${ctx}/manage/resources/js/bootstrap.min.js"></script>
-<script src="${ctx}/manage/resources/js/plugins/metisMenu/jquery.metisMenu.js"></script>
-<script src="${ctx}/manage/resources/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="${ctx}/resources/js/jquery-2.1.1.js"></script>
+<script src="${ctx}/resources/js/bootstrap.min.js"></script>
+<script src="${ctx}/resources/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="${ctx}/resources/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 
 <!-- Flot -->
-<script src="${ctx}/manage/resources/js/plugins/flot/jquery.flot.js"></script>
-<script src="${ctx}/manage/resources/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
-<script src="${ctx}/manage/resources/js/plugins/flot/jquery.flot.spline.js"></script>
-<script src="${ctx}/manage/resources/js/plugins/flot/jquery.flot.resize.js"></script>
-<script src="${ctx}/manage/resources/js/plugins/flot/jquery.flot.pie.js"></script>
+<script src="${ctx}/resources/js/plugins/flot/jquery.flot.js"></script>
+<script src="${ctx}/resources/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+<script src="${ctx}/resources/js/plugins/flot/jquery.flot.spline.js"></script>
+<script src="${ctx}/resources/js/plugins/flot/jquery.flot.resize.js"></script>
+<script src="${ctx}/resources/js/plugins/flot/jquery.flot.pie.js"></script>
 
 <!-- Peity -->
-<script src="${ctx}/manage/resources/js/plugins/peity/jquery.peity.min.js"></script>
-<script src="${ctx}/manage/resources/js/demo/peity-demo.js"></script>
+<script src="${ctx}/resources/js/plugins/peity/jquery.peity.min.js"></script>
+<script src="${ctx}/resources/js/demo/peity-demo.js"></script>
 
 <!-- Custom and plugin javascript -->
-<script src="${ctx}/manage/resources/js/inspinia.js"></script>
-<script src="${ctx}/manage/resources/js/plugins/pace/pace.min.js"></script>
+<script src="${ctx}/resources/js/inspinia.js"></script>
+<script src="${ctx}/resources/js/plugins/pace/pace.min.js"></script>
 
 <!-- jQuery UI -->
-<script src="${ctx}/manage/resources/js/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="${ctx}/resources/js/plugins/jquery-ui/jquery-ui.min.js"></script>
 
 <!-- GITTER -->
-<script src="${ctx}/manage/resources/js/plugins/gritter/jquery.gritter.min.js"></script>
+<script src="${ctx}/resources/js/plugins/gritter/jquery.gritter.min.js"></script>
 
 <!-- Sparkline -->
-<script src="${ctx}/manage/resources/js/plugins/sparkline/jquery.sparkline.min.js"></script>
+<script src="${ctx}/resources/js/plugins/sparkline/jquery.sparkline.min.js"></script>
 
 <!-- Sparkline demo data  -->
-<script src="${ctx}/manage/resources/js/demo/sparkline-demo.js"></script>
+<script src="${ctx}/resources/js/demo/sparkline-demo.js"></script>
 
 <!-- ChartJS-->
-<script src="${ctx}/manage/resources/js/plugins/chartJs/Chart.min.js"></script>
+<script src="${ctx}/resources/js/plugins/chartJs/Chart.min.js"></script>
 
 <!-- Toastr -->
-<script src="${ctx}/manage/resources/js/plugins/toastr/toastr.min.js"></script>
+<script src="${ctx}/resources/js/plugins/toastr/toastr.min.js"></script>
 
 
 <script>
